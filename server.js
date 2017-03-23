@@ -40,10 +40,10 @@ app.get('/searchTweet',function(req,res){
 
  var watchList = ['love'];
  var T = new Twit({
-    consumer_key:         'IrC9MfekmkZXe9RAKSPDSrLrr'
-  , consumer_secret:      'HlvVbTNtemfFY23qQPpWY9r6GKj4tOBt9OFeEUPlXQxifZg0yr'
-  , access_token:         '347757347-S2cgvXTC5wh6oiwP3JHgKMvwWfgZtPOBo61nZaPH'
-  , access_token_secret:  'BQqgSl3X99DW86rsIJqUk54dM1eXNl4JJKU4UbmftCLbH'
+    consumer_key:         'consumer_key'
+  , consumer_secret:      'consumer_secret'
+  , access_token:         'access_token'
+  , access_token_secret:  'access_token_secret'
 })
 
 io.sockets.on('connection', function (socket) {
